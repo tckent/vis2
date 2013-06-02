@@ -1,0 +1,21 @@
+<package>
+  <description brief="VisualOdom">
+
+     VisualOdom
+
+  </description>
+  <author>viki</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/VisualOdom</url>
+  <depend package="image_transport"/>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+  <depend package="nav_msgs"/>
+  <depend package="tf"/>
+
+</package>
+
+

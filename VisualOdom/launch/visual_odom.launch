@@ -1,0 +1,9 @@
+<launch>
+  <group ns="stereo_camera">
+  <node name="stereo_image" pkg="stereo_image_proc" type="stereo_image_proc" output="screen"/>
+  </group>
+  <node name="image_view" pkg="image_view" type="image_view">
+    <remap from="image" to="/stereo_camera/left/image_rect"/>
+  </node>
+  <node name="RViz" pkg="rviz" type="rviz" output="screen"/>
+</launch>
